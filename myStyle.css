@@ -4,15 +4,15 @@
     background-color: #333;
     overflow: hidden;
   }
-  
-  /* Style the links inside the navigation bar */
+
+
   .topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 28px 32px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 35px;
   }
   
   /* Change the color of links on hover */
@@ -24,8 +24,16 @@
   /* Add a color to the active/current link */
   .topnav a.active {
     background-color: #333;
-    color: rgb(88, 161, 221);
+    color:#23ecf5;
+    
+
   }
+
+  .logo {
+    float: left;
+    height: 100px; /* adjust height as needed */
+    margin-right: 20px; /* adjust margin as needed */
+}
 
   .topnav a.install {
     background-color: #e01717;
@@ -34,5 +42,6 @@
 
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    background-color: #23ecf5;
 }
+
