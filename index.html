@@ -4,6 +4,17 @@
     <link rel="stylesheet" href="/myStyle.css">
     <link rel="icon" type="image/png" href="AILogo.png">
 </head>
+<script>
+    alert("Continue???")
+</script>
+
+<script>
+    function myFunction() {
+        varvnumber = document.getElementById("frm1").elements["num"].value
+        /*number = number * 10*/
+        alert(number)
+    }        
+</script>
 
 <body>
     <div class="topnav">
@@ -19,6 +30,10 @@
     <h1>When innovation meets pure and unrivaled skill.</h1>
     <img src="sailLogo.png" alt="Just look at the picture" height="80%">
     <h1>Coming 24/24/24</h1>
+    <form id="frm1">
+        number: <input type="number" name="num"><br>
+        <input type="button" onclick="myFunction()" value="Submit">
+    </form>
 </body>
 
 </html>
