@@ -10,11 +10,13 @@
 
 <script>
     function myFunction() {
-        varvnumber = document.getElementById("frm1").elements["num"].value
-        /*number = number * 10*/
-        alert(number)
+        var number = document.getElementById("frm1").elements["num"].value;
+        number = number * 10;
+        alert(document.getElementById("frm1").elements["num"].value+"*10="+number);
     }        
 </script>
+
+
 
 <body>
     <div class="topnav">
@@ -34,6 +36,13 @@
         number: <input type="number" name="num"><br>
         <input type="button" onclick="myFunction()" value="Submit">
     </form>
+    <script>
+        // Embedded JavaScript code
+        var name = prompt("Enter your name:");
+        for (var i = 0; i < 10; i++) {
+          document.write(name + "<br>");
+        }
+    </script>
 </body>
 
 </html>
