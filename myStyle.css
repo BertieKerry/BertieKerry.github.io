@@ -39,6 +39,11 @@
     color: white;
   }
 
+  .topnav a.demo {
+    background-color: #1dc42b;
+    color: white;
+  }
+
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #23ecf5;
