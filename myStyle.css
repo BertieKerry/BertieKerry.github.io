@@ -43,6 +43,11 @@
     background-color: #1dc42b;
     color: white;
   }
+  
+  .topnav a.game {
+    background-color: #dc29d6;
+    color: white;
+  }
 
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
